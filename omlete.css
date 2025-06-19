@@ -1,0 +1,77 @@
+h1{
+    font-family: Young Serif;
+    color: black;
+}
+
+img{
+    width:1000px auto;
+    height: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Prepare{
+    background: hsl(330, 100%, 98%);
+    width: 60%;
+    height:150px;
+    margin: 1px solid black;
+    position: relative;
+    left:70px;
+   padding: 10px;
+   border-radius: 5px;
+    
+    
+    
+}
+
+.list{
+    text-align: justify;
+}
+.Ingredients li::marker{
+    color : hsl(332, 51%, 32%);
+}
+.Instructions li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.list li{
+    padding-left: 70px;
+    margin:10px
+}
+.Prepare h3{
+    color: hsl(332, 51%, 32%);
+    text-align: center;
+}
+
+h3{
+    color:hsl(14, 45%, 36%);
+    
+    text-indent: 40px;
+}
+
+.Instructions li{
+    margin:10px;
+}
+
+.Ingredients li{
+    margin-left:auto;
+    margin-right:auto;
+    margin: 10px;
+}
+table{
+    width: 50%;
+}
+table td{
+    text-align: center;
+    height: 30px;
+    padding:10px;
+    border-bottom: 1px solid black;
+}
+table td:nth-child(2), table th:nth-child(2) {
+  width: 100px;
+  text-align: left;
+}
+table td:nth-child(even){
+    color:hsl(332, 51%, 32%);
+}
